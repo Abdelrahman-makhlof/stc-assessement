@@ -11,7 +11,7 @@ public class FileRequest {
 
     private String name;
 
-    private String binary;
+    private String content;
 
 
 }

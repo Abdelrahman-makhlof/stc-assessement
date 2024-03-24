@@ -49,8 +49,8 @@ public class FileService {
 
         var file = new File();
         file.setItem(fileItem);
-        if (fileRequest.getBinary() != null)
-            file.setBinary(fileRequest.getBinary().getBytes(StandardCharsets.UTF_8));
+        if (fileRequest.getContent() != null)
+            file.setBinary(fileRequest.getContent().getBytes(StandardCharsets.UTF_8));
         fileItem = itemRepository.save(fileItem);
         file.setId(fileItem.getId());
         fileRepository.save(file);
