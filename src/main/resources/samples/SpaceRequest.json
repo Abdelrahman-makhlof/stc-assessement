@@ -1,0 +1,7 @@
+{
+  "url": "/api/v1/spaces",
+  "request": {
+    "name": "test_space",
+    "groupId": 1
+  }
+}

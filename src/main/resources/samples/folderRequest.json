@@ -1,0 +1,8 @@
+{
+  "url": "/api/v1/folders",
+  "request": {
+    "spaceName": "test_space",
+    "userEmail": "ahmed@stc.com",
+    "name": "backend3"
+  }
+}
