@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/spaces")
+@RequestMapping("/api/v1/spaces")
 public class SpaceController {
 
     private final SpaceService spaceService;
